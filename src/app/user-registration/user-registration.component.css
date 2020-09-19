@@ -1,0 +1,23 @@
+legend{color:blue;}
+    .asterisk_input:after {
+    content:" *"; 
+    color: #e32;
+    position: absolute; 
+    margin: 0px 0px 0px -20px; 
+    float:right;
+     padding: 0 5px 0 0; }
+
+.margin{
+    width: 970px;
+    height: 800px;
+    overflow:scroll;
+    float:right;
+}
+
+
+#loginleft{
+    width: 200px;
+    float: left;
+    background-color: #222;
+    height: 800PX;
+}

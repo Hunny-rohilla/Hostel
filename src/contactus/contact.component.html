@@ -1,0 +1,49 @@
+<body>
+<div id="dcenter">
+  <div id="d1">
+    <h1>Contact Us</h1>
+  </div>
+  <div id="d2">
+    <p id="p1">Hmm...Any doubt? You are at right place!!</p>
+    <p id="p2">Feel free to say <span id="s1">'Hello'.</span></p> 
+  </div>
+  <div id="dmain">
+    <div id="dleft">
+      <form>
+        <input type="text" name="Qname"[(ngModel)]="Qname" placeholder="Your Name"/>{{Qname}}
+        <input type="email" name="Qemail"[(ngModel)]="Qemail"  placeholder="Enter your E-mail"/>{{Qemail}}
+        <input type="text" name="Qphone"[(ngModel)]="Qphone"  placeholder="Enter your Number"/>{{Qphone}}
+        <textarea name="Query"[(ngModel)]="Query"  placeholder="Write Query Here..." rows="4"></textarea>{{Query}}
+        <button name="Qbutton">Send</button>
+      </form>
+      </div>
+      <div id="dright">
+        <div id="drtop">
+        <table>
+        <tr>
+        <td><img src="..\..\assets\images\location.png"></td>
+        <td><p>The Hostelers.com</p><br>
+          <p>London,UK 125001</p></td>
+        </tr>
+          <tr>
+        <td><img src="..\..\assets\images\phonelogo.jpg"></td>
+        <td><p>+999-614-833</p></td>
+        </tr>
+          <tr>
+        <td><img src="..\..\assets\images\whatsapp logo.jpg"></td>
+        <td><p>+987-543-210</p></td>
+        </tr>
+        <tr>
+        <td><img src="..\..\assets\images\mail.jpg"></td>
+        <td><p>care@thehostelers.com</p></td>
+        </tr>
+        </table>	
+                </div>
+        <div id="drbottom">
+          <p>Get Directions</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d39735.41452350609!2d-0.17713000585937497!3d51.50471373609766!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C+UK!5e0!3m2!1sen!2sin!4v1531911060785" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+  </div>
+</div>
+</body>

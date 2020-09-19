@@ -1,0 +1,13 @@
+#loginleft{
+    width: 200px;
+    float: left;
+    background-color: #222;
+    height: 800PX;
+}
+
+#loginmiddle{
+    width: 1000px;
+    float: left;
+    height: 800PX;
+    
+}

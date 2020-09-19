@@ -1,0 +1,30 @@
+<div style="width:1200px; height:800px; float:left;">
+    <div id="loginleft">
+     
+        <a style="text-decoration: none;" class="btn text-muted" [routerLink]="['/dashboard']">Dashboard</a>
+        <a [routerLink]="['/myprofile']" style="text-decoration: none;" class="btn text-muted">My Profile</a>
+        <a [routerLink]="['/changepassword']" style="text-decoration: none;" class="btn text-muted">Change Password</a>
+      </div>
+      <div id="conten">
+          <h3 style="font-family:'Times New Roman', Times, serif;">Welcome {{UserName}}</h3>
+         <br />
+          <div class="card " style="width:300px; height:300px; float:left; background-color: blue;">
+              
+              <div class="card-body">
+                
+                <p style="color:white; text-align: center; font-size:20px;">My Profile</p>
+                <hr />
+                <a href="#" class="btn btn-primary" >See Profile</a>
+              </div>
+            </div>
+
+            <div class="card " style=" margin-left:30px; width:300px; height:300px; float:left; background-color: green;">
+                
+                <div class="card-body">
+                  <p style="color:white; text-align: center; font-size:20px;">My Room</p>
+                  <hr />  <a href="#" class="btn btn-primary">See Room</a>
+                </div>
+              </div>
+      </div>
+      <a [routerLink]="['/logout']">Logout</a>
+</div>

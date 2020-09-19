@@ -1,0 +1,261 @@
+<div style="width:1200px;  height:800px; float:left;">
+<div id="loginleft">
+    
+        <a style="text-decoration: none;" class="btn text-muted" [routerLink]="['/login/user']">User Login</a>
+        <a [routerLink]="['/login/register']" style="text-decoration: none;" class="btn text-muted">User Registration</a>
+        <a [routerLink]="['/login/admin']" style="text-decoration: none;" class="btn text-muted">Administrator Login</a>
+</div>
+<div class="margin">
+      <h1 style="text-align:center; font-family:'Acme', sans-serif; color:blue;">Student Registration Form</h1>
+      <form (ngSubmit)="registration()"cc>
+           <fieldset>
+             <legend>Personal Details</legend>
+             <div class="form-group row">
+                          <label class="col-sm-2 col-form-label ">First Name : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="asterisk_input"></span></label>
+                       <div class="col-sm-2">
+                           <input type="text" class="form-control" name="FirstName" [(ngModel)]="FirstName" required>
+                       {{FirstName}}
+                          </div>
+           <label class="col-sm-2 col-form-label">Middle Name : </label>
+           <div class="col-sm-2">
+               <input type="text" class="form-control" name="Middlename" [(ngModel)]="Middlename" >{{Middlename}}
+           </div>
+           <label class="col-sm-2 col-form-label ">Last Name : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="asterisk_input"></span></label>
+              <div class="col-sm-2">
+          <input type="text" class="form-control" name="LastName" required [(ngModel)]="LastName"> {{LastName}}
+               </div>
+      </div>
+      
+      
+      
+      <div class="form-group row">
+           <label class="col-sm-2 col-form-label">Gender : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="asterisk_input"></span></label>
+           <div class="col-sm-2">
+              <select class="form-control" name="gender" required [(ngModel)]="gender"> 
+               <option hidden>Select</option>
+               <option >Female</option>
+               <option>Male</option>
+               </select>
+           {{gender}}
+              </div>
+      </div>
+      
+      
+      
+      
+      <div class="form-group row">
+          <label class="col-sm-2 col-form-label">House No./Flat No.:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="asterisk_input"></span></label>
+           <div class="col-sm-6">
+             <input type="textarea" class="form-control" name="HouseNo" [(ngModel)]="HouseNo" required>
+          {{HouseNo}} 
+          </div>
+      </div>
+      
+      <div class="form-group row">
+           <label class="col-sm-2 col-form-label">Street/Colony/Building Name : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="asterisk_input"></span></label>
+           <div class="col-sm-6">
+          <input type="textarea" class="form-control" name="Street" required [(ngModel)]="Street"> {{Street}}
+           </div>
+      </div>
+      
+      <div class="form-group row">
+           <label class="col-sm-2 col-form-label">City : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="asterisk_input"></span></label>
+           <div class="col-sm-6">
+          <input type="textarea" class="form-control" name="City" required [(ngModel)]="City"> {{City}}
+           </div>
+      </div>
+      
+      <div class="form-group row">
+           <label class="col-sm-2 col-form-label">District : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="asterisk_input"></span></label>
+           <div class="col-sm-6">
+          <input type="textarea" class="form-control" name="District" required [(ngModel)]="District"> {{District}}
+           </div>
+      </div>
+      
+      <div class="form-group row">
+           <label class="col-sm-2 col-form-label">State : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="asterisk_input"></span></label>
+           <div class="col-sm-6">
+          <input type="textarea" class="form-control" name="State" required [(ngModel)]="State"> {{State}}
+           </div>
+      </div>
+      
+      <div class="form-group row">
+           <label class="col-sm-2 col-form-label">Pincode : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="asterisk_input"></span></label>
+           <div class="col-sm-6">
+          <input type="textarea" class="form-control" name="Pincode" required [(ngModel)]="Pincode"> {{Pincode}}
+           </div>
+      </div>
+      
+      <div class="form-group row">
+          <label class="col-sm-2 col-form-label">Phone No. :&nbsp;&nbsp;&nbsp;&nbsp;<span class="asterisk_input"></span></label>
+           <div class="col-sm-6">
+           <input type="text" class="form-control" name="PhoneNo" value="+91" required [(ngModel)]="PhoneNo"> {{PhoneNo}}
+          </div>
+      </div>
+      
+      <div class="form-group row">
+         <label class="col-sm-2 col-form-label">E-mail ID : </label>
+           <div class="col-sm-6">
+          <input type="email" class="form-control" name="EmailId" [(ngModel)]="EmailId"> {{EmailId}}
+              </div>
+      </div>
+      
+      <div class="form-group row">
+          <label class="col-sm-2 col-form-label">Date of Birth : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="asterisk_input"></span></label>
+           <div class="col-sm-6">
+          <input type="date" class="form-control" name="DOB" required [(ngModel)]="DOB"> {{DOB}}
+              </div>
+      </div>
+      
+      <div class="form-group row">
+           <label class="col-sm-2 col-form-label">Blood Group : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="asterisk_input"></span></label>
+           <div class="col-sm-2">
+          <select class="form-control" name="BloodGroup" required [(ngModel)]="BloodGroup">
+              <option hidden>Select</option>
+              <option>O+</option>
+              <option>B+</option>
+              <option>A+</option>
+              <option>AB+</option>
+              <option>O-</option>
+              <option>B-</option>
+              <option>A-</option>
+              <option>AB-</option>
+           </select>
+      {{BloodGroup}}   </div>
+      </div>          
+      </fieldset>
+      
+      
+      
+      
+      
+      <fieldset>
+      <legend>Parent's Detail</legend>
+      
+      <div class="form-group row">
+           <label class="col-sm-2 col-form-label">Father's Name : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="asterisk_input"></span></label>
+           <div class="col-sm-6">
+           <input type="text" class="form-control" name="FatherName" required [(ngModel)]="FatherName"> {{FatherName}}
+           </div>
+      </div>
+      
+      <div class="form-group row">
+           <label class="col-sm-2 col-form-label">Mother's Name : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="asterisk_input"></span></label>
+           <div class="col-sm-6">
+           <input type="text" class="form-control" name="MotherName" required [(ngModel)]="MotherName"> {{MotherName}}
+           </div>
+      </div>
+      
+      <div class="form-group row">
+           <label class="col-sm-2 col-form-label">Father's Email Id :</label>
+           <div class="col-sm-6">
+           <input type="email" class="form-control" name="FatherEmailID" [(ngModel)]="FatherEmailID"> {{FatherEmailID}}
+      </div>
+      </div>
+      
+      <div class="form-group row">
+           <label class="col-sm-2 col-form-label">Mother's Email Id : </label>
+           <div class="col-sm-6">
+           <input type="email" class="form-control" name="MotherEmailID" [(ngModel)]="MotherEmailID">
+      {{MotherEmailID}}       </div>
+      </div>
+      
+      <div class="form-group row">
+           <label class="col-sm-2 col-form-label">Father's Mobile : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="asterisk_input"></span></label>
+           <div class="col-sm-2">
+           <input type="text" class="form-control" name="FatherPhoneNo" value="+91" [(ngModel)]="FatherPhoneNo" required>
+          {{FatherPhoneNo}} </div>
+      </div>
+      
+      <div class="form-group row">
+           <label class="col-sm-2 col-form-label">Mother's Mobile : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="asterisk_input"></span></label>
+           <div class="col-sm-2">
+           <input type="text" class="form-control" name="MotherPhoneNo" value="+91" required [(ngModel)]="MotherPhoneNo"> {{MotherPhoneNo}}
+           </div>
+      </div>
+      </fieldset>
+           
+      
+      
+      <fieldset>
+      <legend>Institution Details</legend>
+      
+      <div class="form-group row">
+           <label class="col-sm-2 col-form-label">Institute Name : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="asterisk_input"></span></label>
+           <div class="col-sm-6">
+           <input type="text" class="form-control" name="InstituteName" required [(ngModel)]="InstituteName"> {{InstituteName}}
+           </div>
+      </div>
+      
+      <div class="form-group row">
+           <label class="col-sm-2 col-form-label">Course Name : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="asterisk_input"></span></label>
+           <div class="col-sm-6">
+           <input type="text" class="form-control" name="CourseName" required [(ngModel)]="CourseName">
+      {{CourseName}}   </div>
+      </div>
+      
+      <div class="form-group row">
+           <label class="col-sm-2 col-form-label">Contact No. : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="asterisk_input"></span></label>
+           <div class="col-sm-2">
+           <input type="text" class="form-control" name="Contactno" value="+91" required [(ngModel)]="Contactno"> {{Contactno}}
+           </div>
+      </div>
+      </fieldset>
+      
+      
+      <fieldset>
+      <legend>Local Guardian(if any)</legend>
+      
+      <div class="form-group row">
+           <label class="col-sm-2 col-form-label">Name:</label>
+           <div class="col-sm-6">
+           <input type="text" class="form-control" name="GuardianName" [(ngModel)]="GuardianName"> {{GuardianName}}
+           </div>
+           </div>
+      
+      <div class="form-group row">
+           <label class="col-sm-2 col-form-label">Address:</label>
+           <div class="col-sm-6">
+              <input type="textarea" class="form-control" name="GuardianAddress" [(ngModel)]="GuardianAddress"> {{GuardianAddress}}
+           </div>
+      </div>
+      
+      <div class="form-group row">
+           <label class="col-sm-2 col-form-label">Phone No. :</label>
+           <div class="col-sm-2">
+              <input type="text" class="form-control" name="GuardianPhoneNo" value="+91" [(ngModel)]="GuardianPhoneNo"> {{GuardianPhoneNo}}
+           </div>
+      </div>
+      </fieldset>
+      
+      
+      <fieldset>
+      
+      <legend>Login Credentials</legend>
+      
+      <div class="form-group row">
+           <label class="col-sm-2 col-form-label">Username:</label>
+           <div class="col-sm-4">
+           <input type="text" class="form-control" name="UserName" value="Enter Your E-mail ID or Phone No." [(ngModel)]="UserName" />
+      {{UserName}}     </div>
+          </div>
+          <div class="form-group row">    
+           <label class="col-sm-2 col-form-label">Password:</label>
+           <div class="col-sm-4">
+           <input type="text" class="form-control" name="Password" [(ngModel)]="Password"/> {{Password}}
+           </div>
+          </div>
+           </fieldset>
+      
+       <div class="form-group form-check">
+       <fieldset>   
+          <legend>Student's Declaration:</legend> 
+          <input type="checkbox" name="check" [(ngModel)]="check" class="form-check-input">
+           <label class="form-check-label" style="font-size:18px">&nbsp;I hereby declare that all the above information provided by me is true and best upto my knowledge.</label>
+      {{check}}   </fieldset>     
+       </div>
+ <br>
+     <button type="submit" name="submit" class="btn btn-success" [disabled]='!check' style="width:300px; margin-left: 300px;">Submit</button>
+</form>
+</div>
+</div>

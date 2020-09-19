@@ -1,0 +1,83 @@
+.userimg{
+	position:absolute;
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	top:-10%;
+	left:40%;
+}
+
+.userlogin{
+	position:absolute;
+	width:350px;
+	height:420px;
+	background-color:rgba(0,0,0,0.4);
+	top:50%;
+	left:45%;
+	box-sizing:border-box;
+}
+
+.userlogin h2{
+	margin-top:70px;
+	margin-left:90px;
+	color:white;
+	font-family:"Courier New", Courier, monospace;
+}
+
+.userlogin p{
+	color:white;
+	margin-left:20px;
+}
+
+.modify{
+	width:90%;
+	overflow:hidden;
+	color:#ffffff;
+	background-color:rgba(0,0,0,0.4);
+	border-style:none;
+	border-bottom:1px solid #fff;
+	background:transparent;
+	outline:none;
+	height:40px;
+	font-size:16px;
+	margin-left:20px;
+}
+
+#submit{
+	border-style:none;
+	background-color:#c9128c;
+	text-align:center;
+	margin:0px 10%;
+	margin-top:30px;
+	font-size:24px;
+	padding:5px 100px;
+	cursor:pointer;
+	border-radius:25px;
+	text-align:center;
+	color:#fff;
+}
+
+#submit:hover{
+	color:white;
+	background-color:#c9124e;
+}
+
+::placeholder{
+	color:rgba(255,255,255,.8);
+}
+
+#background{
+    background:url(../../assets/images/buza-mezo.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height: 800px;
+	width: 1000px;
+	float:right;
+}
+
+#loginleft{
+    width: 200px;
+    float: left;
+    background-color: #222;
+    height: 800PX;
+}

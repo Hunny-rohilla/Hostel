@@ -1,0 +1,21 @@
+div{
+    border:thick solid black;
+    box-sizing: border-box;
+    padding:20px;
+    
+}
+
+
+#i1{
+    width:1140px;
+    height: 700px;
+    border:thin solid black;
+    
+
+}
+
+.i{
+    width: 570px;
+    border:thin solid black;
+   
+}

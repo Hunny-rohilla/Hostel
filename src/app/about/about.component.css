@@ -1,0 +1,32 @@
+#m1 {
+    width: 1200px;
+    margin: 0px auto;
+    float:none;
+}
+
+#h1 {
+    height: 200px;
+    width: 1200px;
+    float: left;
+}
+
+#hl {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+#h2 {
+    width: 1000px;
+    height: 200px;
+    float: left;
+}
+
+#body{
+    margin-top: 70px;
+}
+
+h4{
+    margin-top:50px;
+    margin-bottom: 50px;
+}

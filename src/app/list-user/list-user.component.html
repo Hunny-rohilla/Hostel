@@ -1,0 +1,18 @@
+<span style="color:green" *ngIf="isDelete">{{delconfrimation}}</span>
+<table class="table table-bordered">
+    <tr>
+      <td>S.No</td>
+      <td>Name</td>
+      <td>Gender</td>
+      <td>Actions</td>
+    </tr>
+    <tr *ngFor="let user of record.data; let i = index" style="text-align: center;">
+      <td>{{i + 1}}</td>
+      <td>{{user.UserName}}</td>
+      <td>{{user.gender}}</td>
+      <td>
+        <i class="fas fa-edit"></i>
+        <button (click)="delete_user(user.UserName)"><i class="fas fa-trash"></i></button>
+      </td>
+    </tr>
+</table>

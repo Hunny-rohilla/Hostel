@@ -1,0 +1,24 @@
+<div style="width:1200px; height:800px; float:left;">
+<div id="loginleft">
+    
+		<a style="text-decoration: none;" class="btn text-muted" [routerLink]="['/login/user']">User Login</a>
+		<a [routerLink]="['/login/register']" style="text-decoration: none;" class="btn text-muted">User Registration</a>
+		<a [routerLink]="['/login/admin']" style="text-decoration: none;" class="btn text-muted">Administrator Login</a>
+	</div>
+  
+<div id="background">
+	<div class="userlogin">
+        <img src="../../assets/images/user.png" class="userimg">
+		<h2>Student Log In</h2>
+		<form (ngSubmit)="login()">
+		<p>Email:</p>
+		<input type="text" class="modify" name="UserName" [(ngModel)]="UserName" placeholder="Enter Your Username">{{UserName}}
+		<p>Password: </p>
+		<input type="password" name="Password" [(ngModel)]="Password" class="modify" placeholder="Enter Password">
+		<input type="submit" name="submit" id="submit" value="Sign In">{{Password}}
+		{{confirmation}}
+		</form>
+		<p><a [routerLink]="['/forgotpassword']" style="color:white; text-align:center; margin-left:20px;">Forgotten Password?</a> | <span><a [routerLink]="['/login/register']" style="color:white; text-align:center">New User</a></span></p>
+	</div>
+</div>
+</div>

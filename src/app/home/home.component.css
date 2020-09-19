@@ -1,0 +1,82 @@
+img{
+    padding: 20px 0px;
+}
+
+#myCarousel{
+    float: left;
+    
+}
+
+#d2{
+    width:1140px;
+    float: left;
+    
+    
+}
+
+#left{
+    width:380px;
+    height: 500px;
+    float: left;
+    text-align: center;
+        
+    
+}
+#left h1{
+    font-family: 'Permanent Marker', cursive;
+}
+
+#left p{
+    font-family: cursive;
+}
+
+#left p a{
+text-decoration:none;
+}
+
+#certificatelogo,#trophy
+{
+    width:190px;
+    height:300px;
+}
+
+#center{
+    width:380px;
+    height: 500px;
+    background-color:green;
+    float: left;
+    
+   
+}
+
+#right{
+    width:380px;
+    height: 500px;
+
+    float: left;
+    
+}
+#d3{
+    float: left;
+    background-color: black;
+    text-align: center;
+    margin:10px 0px 10px 0px;
+}
+#p2{
+    width:1140px;
+    font-size: 30px;
+    font-weight: bolder;
+   
+    color: white;
+    
+}
+
+
+#d3 a{
+    font-size: 25px;
+    color:white;
+    text-decoration:none;    
+}
+
+
+

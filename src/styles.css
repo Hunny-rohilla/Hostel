@@ -1,0 +1,77 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    margin:0px;
+    padding:0px;
+    }
+
+#main{
+    width: 1200px;
+    float: none;
+    margin: 0px auto;
+}
+
+#headerblank{
+    float: left;
+    height: 200px;
+    width: 1200px;
+}
+
+#header{
+    float: left;
+    height: 200px;
+    width: 1200px;
+}
+
+#logoblock{
+    height: 200px;
+    width: 600px;
+    float: left;
+    margin-top: -20px;
+}
+
+#ssblock{
+    height: 200px;
+    width: 600px;
+    float: left;
+}
+
+#social{
+    height: 100px;
+    width: 600px;
+    float: left;
+}
+
+#social img{
+    box-sizing: border-box;
+    height: 75px;
+    width: 75px;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+#search{
+    height: 100px;
+    width: 600px;
+    float: left;
+    margin-top: 40px;
+}
+
+#bodyblank{
+    width: 1200px;
+    float: left;
+}
+
+#footermain{
+    height: 100px;
+    float: left;
+    width: 100%;
+    background-color: #332E2D;
+}
+
+#footer{
+    width: 1200px;
+    margin: 0px auto;
+    height: 100px;
+    color: white;
+    text-align: center;
+}

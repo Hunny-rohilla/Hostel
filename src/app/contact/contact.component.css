@@ -1,0 +1,142 @@
+#body{
+    background-image: url(../../assets/images/texture.jpg);
+    margin:0px;
+    padding:0px;
+    height: 980px;
+    margin-bottom: 50px;
+    }
+
+    #dcenter{
+    width:1070px;
+    height:300px;
+    margin:0px auto;
+    }
+
+    #d1{
+    width:1070px;
+    height:100px;
+    text-align:center;
+    color:black;
+    font-size:40px;
+   
+    padding-top: 150px;
+    }
+
+    #d2{
+        line-height: 100px;
+    text-align:center;
+    color:black;
+    }
+
+    #p1{
+    font-size:24px;
+    font-weight:bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    #p2{
+    
+    font-size:16px;
+    }
+
+    #s1{
+    text-transform:uppercase;
+    }
+
+    #dmain{
+    float:left;
+    }
+
+    #dleft{
+    line-height: 25px;
+    font-size: 18px;
+    float:left;
+    width:500px;
+    height:470px;
+    box-sizing:border-box;
+    text-align:left;
+    }
+
+    #dright{
+        
+        line-height: 45px;
+    float:left;
+    width:500px;
+    box-sizing:border-box;
+    }
+
+    input{
+   
+    color:black;
+    display:block;
+    width:450px;
+    height:45px;
+   
+   
+    border-radius:20px;
+    margin-bottom:20px;
+    margin-left:4px;
+    
+    outline:none;
+    }
+
+    textarea
+    {
+
+    color:black;
+    width:450px;
+    border-style:none;
+    border:0.5px dotted white;
+    border-radius:10px;
+    padding:10px;
+    outline:none;
+    }
+
+    button{
+    
+    color:black;
+    font-size:20px;
+    width:200px;
+    height:45px;
+    border-style:none;
+    border:1px solid white;
+    border-radius:20px;
+    outline:none;
+    margin-top:55px;
+    }
+
+    button:hover{
+    background-color: cadetblue;
+    color: black;
+    }
+
+    img{
+    
+    width:40px;
+    height:40px;
+    }
+
+    #drtop p{
+    display:inline;
+    color:black;
+    margin-left:150px;
+    font-size: 18px;
+  
+    }
+
+    #drtop{
+        
+    border-bottom:1px dotted white;
+    }
+
+    #drbottom{
+    color:black;
+    font-size:24px;
+    text-align:center;
+    }
+    
+    iframe{
+    height:250px;
+    width:500px;
+    }
+    
